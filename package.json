@@ -1,4 +1,8 @@
 {
+    "name": "solfall",
+    "version": "0.1.0",
+    "author": "@armariya",
+    "license": "MIT",
     "dependencies": {
         "@project-serum/anchor": "^0.22.0"
     },
