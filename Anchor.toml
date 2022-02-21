@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+solfall = "BHeZ6pUpo8Z3d1x93mwn2SNnrddFSUYoPAdNdEfxX3d2"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/armariya/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
