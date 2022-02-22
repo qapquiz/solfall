@@ -1,5 +1,7 @@
 [features]
-seeds = false
+seeds = true
+safety_checks = true
+
 [programs.localnet]
 solfall = "BHeZ6pUpo8Z3d1x93mwn2SNnrddFSUYoPAdNdEfxX3d2"
 
