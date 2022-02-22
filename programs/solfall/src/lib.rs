@@ -17,12 +17,13 @@ pub mod solfall {
         deposit_detail.bump = *ctx.bumps.get("deposit_detail").unwrap();
         deposit_detail.owner = ctx.accounts.depositor.key();
 
-        // @todo #3 create stake account for port financeg
+        // @todo #3 create stake account for port finance
         Ok(())
     }
 
     pub fn deposit(ctx: Context<Deposit>) -> Result<()> {
         // @todo #4 refresh reserve account
+        Ok(())
     }
 }
 
@@ -49,7 +50,7 @@ pub struct DepositInitialize<'info> {
 }
 
 #[derive(Accounts)]
-pub struct Deposit<'info> {
+pub struct Deposit {
 
 }
 
